@@ -1,5 +1,5 @@
-Mobility Signing API
-====================
+OBSOLETE - Mobility Signing API
+===============================
 
 * [What is the status of this document?][statuses]
 * [See the index of all other EWP Specifications][develhub]
@@ -7,6 +7,9 @@ Mobility Signing API
 
 Summary
 -------
+
+**OBSOLETE: This proposal has been merged with [Outgoing Mobilities
+API][mobilities-api].**
 
 This document describes the **Mobility Signing API**. This API can be
 implemented by a sending HEI if it wants to **allow** receiving HEIs to approve
@@ -109,3 +112,4 @@ Servers MUST respond with a valid XML document described by the [response.xsd]
 [echo]: https://github.com/erasmus-without-paper/ewp-specs-api-echo
 [error-handling]: https://github.com/erasmus-without-paper/ewp-specs-architecture#error-handling
 [http409]: https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.10
+[mobilities-api]: https://github.com/erasmus-without-paper/ewp-specs-api-mobilities
